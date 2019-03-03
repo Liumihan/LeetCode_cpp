@@ -48,10 +48,10 @@ RM = /opt/clion-2018.3.3/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liumihan/CLionProjects/GetMyOffer
+CMAKE_SOURCE_DIR = /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liumihan/CLionProjects/GetMyOffer/cmake-build-debug
+CMAKE_BINARY_DIR = /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/liumihan/CLionProjects/GetMyOffer/cmake-build-debug/CMakeFiles /home/liumihan/CLionProjects/GetMyOffer/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/CMakeFiles /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/liumihan/CLionProjects/GetMyOffer/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,59 @@ GetMyOffer/fast:
 	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/build
 .PHONY : GetMyOffer/fast
 
-cmystring.o: cmystring.cpp.o
+cmystring/cmystring.o: cmystring/cmystring.cpp.o
 
-.PHONY : cmystring.o
+.PHONY : cmystring/cmystring.o
 
 # target to build an object file
-cmystring.cpp.o:
-	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/cmystring.cpp.o
-.PHONY : cmystring.cpp.o
+cmystring/cmystring.cpp.o:
+	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/cmystring/cmystring.cpp.o
+.PHONY : cmystring/cmystring.cpp.o
 
-cmystring.i: cmystring.cpp.i
+cmystring/cmystring.i: cmystring/cmystring.cpp.i
 
-.PHONY : cmystring.i
+.PHONY : cmystring/cmystring.i
 
 # target to preprocess a source file
-cmystring.cpp.i:
-	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/cmystring.cpp.i
-.PHONY : cmystring.cpp.i
+cmystring/cmystring.cpp.i:
+	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/cmystring/cmystring.cpp.i
+.PHONY : cmystring/cmystring.cpp.i
 
-cmystring.s: cmystring.cpp.s
+cmystring/cmystring.s: cmystring/cmystring.cpp.s
 
-.PHONY : cmystring.s
+.PHONY : cmystring/cmystring.s
 
 # target to generate assembly for a file
-cmystring.cpp.s:
-	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/cmystring.cpp.s
-.PHONY : cmystring.cpp.s
+cmystring/cmystring.cpp.s:
+	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/cmystring/cmystring.cpp.s
+.PHONY : cmystring/cmystring.cpp.s
+
+duplicate/duplicate.o: duplicate/duplicate.cpp.o
+
+.PHONY : duplicate/duplicate.o
+
+# target to build an object file
+duplicate/duplicate.cpp.o:
+	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/duplicate/duplicate.cpp.o
+.PHONY : duplicate/duplicate.cpp.o
+
+duplicate/duplicate.i: duplicate/duplicate.cpp.i
+
+.PHONY : duplicate/duplicate.i
+
+# target to preprocess a source file
+duplicate/duplicate.cpp.i:
+	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/duplicate/duplicate.cpp.i
+.PHONY : duplicate/duplicate.cpp.i
+
+duplicate/duplicate.s: duplicate/duplicate.cpp.s
+
+.PHONY : duplicate/duplicate.s
+
+# target to generate assembly for a file
+duplicate/duplicate.cpp.s:
+	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/duplicate/duplicate.cpp.s
+.PHONY : duplicate/duplicate.cpp.s
 
 main.o: main.cpp.o
 
@@ -186,9 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... GetMyOffer"
 	@echo "... edit_cache"
-	@echo "... cmystring.o"
-	@echo "... cmystring.i"
-	@echo "... cmystring.s"
+	@echo "... cmystring/cmystring.o"
+	@echo "... cmystring/cmystring.i"
+	@echo "... cmystring/cmystring.s"
+	@echo "... duplicate/duplicate.o"
+	@echo "... duplicate/duplicate.i"
+	@echo "... duplicate/duplicate.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

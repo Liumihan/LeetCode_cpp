@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/liumihan/CLionProjects/GetMyOffer/cmake-build-debug"/>
+				<Option working_dir="/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/liumihan/CLionProjects/GetMyOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liumihan/CLionProjects/GetMyOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/liumihan/CLionProjects/GetMyOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liumihan/CLionProjects/GetMyOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/liumihan/CLionProjects/GetMyOffer/cmake-build-debug"/>
+				<Option working_dir="/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/liumihan/CLionProjects/GetMyOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liumihan/CLionProjects/GetMyOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/liumihan/CLionProjects/GetMyOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liumihan/CLionProjects/GetMyOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="GetMyOffer">
-				<Option output="/home/liumihan/CLionProjects/GetMyOffer/cmake-build-debug/GetMyOffer" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/liumihan/CLionProjects/GetMyOffer/cmake-build-debug"/>
+				<Option output="/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/GetMyOffer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -42,17 +42,19 @@
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/liumihan/CLionProjects/GetMyOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 GetMyOffer"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liumihan/CLionProjects/GetMyOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/liumihan/CLionProjects/GetMyOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liumihan/CLionProjects/GetMyOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 GetMyOffer"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="GetMyOffer/fast">
-				<Option output="/home/liumihan/CLionProjects/GetMyOffer/cmake-build-debug/GetMyOffer" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/liumihan/CLionProjects/GetMyOffer/cmake-build-debug"/>
+				<Option output="/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/GetMyOffer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -65,35 +67,43 @@
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/liumihan/CLionProjects/GetMyOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 GetMyOffer/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liumihan/CLionProjects/GetMyOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/liumihan/CLionProjects/GetMyOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liumihan/CLionProjects/GetMyOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 GetMyOffer/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/liumihan/CLionProjects/GetMyOffer/cmake-build-debug"/>
+				<Option working_dir="/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/liumihan/CLionProjects/GetMyOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liumihan/CLionProjects/GetMyOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/liumihan/CLionProjects/GetMyOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liumihan/CLionProjects/GetMyOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/liumihan/CLionProjects/GetMyOffer/cmystring.cpp">
+		<Unit filename="/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmystring/cmystring.cpp">
 			<Option target="GetMyOffer"/>
 		</Unit>
-		<Unit filename="/home/liumihan/CLionProjects/GetMyOffer/cmystring.h">
+		<Unit filename="/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmystring/cmystring.h">
 			<Option target="GetMyOffer"/>
 		</Unit>
-		<Unit filename="/home/liumihan/CLionProjects/GetMyOffer/main.cpp">
+		<Unit filename="/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/duplicate/duplicate.cpp">
 			<Option target="GetMyOffer"/>
 		</Unit>
-		<Unit filename="/home/liumihan/CLionProjects/GetMyOffer/CMakeLists.txt">
+		<Unit filename="/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/duplicate/duplicate.h">
+			<Option target="GetMyOffer"/>
+		</Unit>
+		<Unit filename="/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/main.cpp">
+			<Option target="GetMyOffer"/>
+		</Unit>
+		<Unit filename="/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

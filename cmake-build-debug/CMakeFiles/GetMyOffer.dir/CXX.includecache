@@ -6,17 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/home/liumihan/CLionProjects/GetMyOffer/cmystring.cpp
+/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmystring/cmystring.cpp
 cmystring.h
-/home/liumihan/CLionProjects/GetMyOffer/cmystring.h
+/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmystring/cmystring.h
 cstring
-/home/liumihan/CLionProjects/GetMyOffer/cstring
+/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmystring/cstring
 cstdio
-/home/liumihan/CLionProjects/GetMyOffer/cstdio
+/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmystring/cstdio
 
-/home/liumihan/CLionProjects/GetMyOffer/cmystring.h
+/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmystring/cmystring.h
 cstring
 -
 cstdio
 -
+
+/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/duplicate/duplicate.h
+
+/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/main.cpp
+iostream
+-
+cstdio
+-
+cmystring/cmystring.h
+/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmystring/cmystring.h
+duplicate/duplicate.h
+/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/duplicate/duplicate.h
 

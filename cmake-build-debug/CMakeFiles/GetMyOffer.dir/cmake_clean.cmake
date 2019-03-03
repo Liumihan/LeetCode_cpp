@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/GetMyOffer.dir/main.cpp.o"
-  "CMakeFiles/GetMyOffer.dir/cmystring.cpp.o"
+  "CMakeFiles/GetMyOffer.dir/cmystring/cmystring.cpp.o"
+  "CMakeFiles/GetMyOffer.dir/duplicate/duplicate.cpp.o"
   "GetMyOffer.pdb"
   "GetMyOffer"
 )

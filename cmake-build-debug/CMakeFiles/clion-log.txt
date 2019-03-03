@@ -1,4 +1,4 @@
-/opt/clion-2018.3.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/liumihan/CLionProjects/GetMyOffer
+/opt/clion-2018.3.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/liumihan/CLionProjects/GetMyOffer/cmake-build-debug
+-- Build files have been written to: /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug

@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/GetMyOffer.dir/main.cpp.o CMakeFiles/GetMyOffer.dir/cmystring.cpp.o  -o GetMyOffer 
+/usr/bin/c++  -g   CMakeFiles/GetMyOffer.dir/main.cpp.o CMakeFiles/GetMyOffer.dir/cmystring/cmystring.cpp.o CMakeFiles/GetMyOffer.dir/duplicate/duplicate.cpp.o  -o GetMyOffer 

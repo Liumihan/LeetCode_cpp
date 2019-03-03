@@ -15,9 +15,9 @@
 class CMyString
 {
 public:
-    CMyString(char* pData = nullptr);
+    explicit CMyString(char* pData = nullptr);
     CMyString(const CMyString& str);
-    ~CMyString(void);
+    ~CMyString();
 
     CMyString& operator = (const CMyString& str);
 
@@ -26,12 +26,6 @@ public:
 private:
     char* m_pData;
 };
-
-
-
-
-
-
 
 
 #endif //GETMYOFFER_CMYSTRING_H

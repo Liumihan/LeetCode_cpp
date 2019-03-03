@@ -4,8 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/liumihan/CLionProjects/GetMyOffer/cmystring.cpp" "/home/liumihan/CLionProjects/GetMyOffer/cmake-build-debug/CMakeFiles/GetMyOffer.dir/cmystring.cpp.o"
-  "/home/liumihan/CLionProjects/GetMyOffer/main.cpp" "/home/liumihan/CLionProjects/GetMyOffer/cmake-build-debug/CMakeFiles/GetMyOffer.dir/main.cpp.o"
+  "/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmystring/cmystring.cpp" "/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/CMakeFiles/GetMyOffer.dir/cmystring/cmystring.cpp.o"
+  "/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/duplicate/duplicate.cpp" "/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/CMakeFiles/GetMyOffer.dir/duplicate/duplicate.cpp.o"
+  "/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/main.cpp" "/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/CMakeFiles/GetMyOffer.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

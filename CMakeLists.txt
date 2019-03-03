@@ -3,4 +3,4 @@ project(GetMyOffer)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(GetMyOffer main.cpp cmystring.cpp)
+add_executable(GetMyOffer main.cpp cmystring/cmystring.cpp duplicate/duplicate.cpp duplicate/duplicate.h)
