@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/liumihan/CLionProjects/GetMyOffer/cmystring.cpp
+cmystring.h
+/home/liumihan/CLionProjects/GetMyOffer/cmystring.h
+cstring
+/home/liumihan/CLionProjects/GetMyOffer/cstring
+cstdio
+/home/liumihan/CLionProjects/GetMyOffer/cstdio
+
+/home/liumihan/CLionProjects/GetMyOffer/cmystring.h
+cstring
+-
+cstdio
+-
+
