@@ -123,59 +123,86 @@ GetMyOffer/fast:
 	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/build
 .PHONY : GetMyOffer/fast
 
-cmystring/cmystring.o: cmystring/cmystring.cpp.o
+1-cmystring/cmystring.o: 1-cmystring/cmystring.cpp.o
 
-.PHONY : cmystring/cmystring.o
-
-# target to build an object file
-cmystring/cmystring.cpp.o:
-	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/cmystring/cmystring.cpp.o
-.PHONY : cmystring/cmystring.cpp.o
-
-cmystring/cmystring.i: cmystring/cmystring.cpp.i
-
-.PHONY : cmystring/cmystring.i
-
-# target to preprocess a source file
-cmystring/cmystring.cpp.i:
-	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/cmystring/cmystring.cpp.i
-.PHONY : cmystring/cmystring.cpp.i
-
-cmystring/cmystring.s: cmystring/cmystring.cpp.s
-
-.PHONY : cmystring/cmystring.s
-
-# target to generate assembly for a file
-cmystring/cmystring.cpp.s:
-	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/cmystring/cmystring.cpp.s
-.PHONY : cmystring/cmystring.cpp.s
-
-duplicate/duplicate.o: duplicate/duplicate.cpp.o
-
-.PHONY : duplicate/duplicate.o
+.PHONY : 1-cmystring/cmystring.o
 
 # target to build an object file
-duplicate/duplicate.cpp.o:
-	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/duplicate/duplicate.cpp.o
-.PHONY : duplicate/duplicate.cpp.o
+1-cmystring/cmystring.cpp.o:
+	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/1-cmystring/cmystring.cpp.o
+.PHONY : 1-cmystring/cmystring.cpp.o
 
-duplicate/duplicate.i: duplicate/duplicate.cpp.i
+1-cmystring/cmystring.i: 1-cmystring/cmystring.cpp.i
 
-.PHONY : duplicate/duplicate.i
+.PHONY : 1-cmystring/cmystring.i
 
 # target to preprocess a source file
-duplicate/duplicate.cpp.i:
-	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/duplicate/duplicate.cpp.i
-.PHONY : duplicate/duplicate.cpp.i
+1-cmystring/cmystring.cpp.i:
+	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/1-cmystring/cmystring.cpp.i
+.PHONY : 1-cmystring/cmystring.cpp.i
 
-duplicate/duplicate.s: duplicate/duplicate.cpp.s
+1-cmystring/cmystring.s: 1-cmystring/cmystring.cpp.s
 
-.PHONY : duplicate/duplicate.s
+.PHONY : 1-cmystring/cmystring.s
 
 # target to generate assembly for a file
-duplicate/duplicate.cpp.s:
-	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/duplicate/duplicate.cpp.s
-.PHONY : duplicate/duplicate.cpp.s
+1-cmystring/cmystring.cpp.s:
+	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/1-cmystring/cmystring.cpp.s
+.PHONY : 1-cmystring/cmystring.cpp.s
+
+2-duplicate/duplicate.o: 2-duplicate/duplicate.cpp.o
+
+.PHONY : 2-duplicate/duplicate.o
+
+# target to build an object file
+2-duplicate/duplicate.cpp.o:
+	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/2-duplicate/duplicate.cpp.o
+.PHONY : 2-duplicate/duplicate.cpp.o
+
+2-duplicate/duplicate.i: 2-duplicate/duplicate.cpp.i
+
+.PHONY : 2-duplicate/duplicate.i
+
+# target to preprocess a source file
+2-duplicate/duplicate.cpp.i:
+	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/2-duplicate/duplicate.cpp.i
+.PHONY : 2-duplicate/duplicate.cpp.i
+
+2-duplicate/duplicate.s: 2-duplicate/duplicate.cpp.s
+
+.PHONY : 2-duplicate/duplicate.s
+
+# target to generate assembly for a file
+2-duplicate/duplicate.cpp.s:
+	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/2-duplicate/duplicate.cpp.s
+.PHONY : 2-duplicate/duplicate.cpp.s
+
+2-duplicate_2/duplicate_2.o: 2-duplicate_2/duplicate_2.cpp.o
+
+.PHONY : 2-duplicate_2/duplicate_2.o
+
+# target to build an object file
+2-duplicate_2/duplicate_2.cpp.o:
+	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/2-duplicate_2/duplicate_2.cpp.o
+.PHONY : 2-duplicate_2/duplicate_2.cpp.o
+
+2-duplicate_2/duplicate_2.i: 2-duplicate_2/duplicate_2.cpp.i
+
+.PHONY : 2-duplicate_2/duplicate_2.i
+
+# target to preprocess a source file
+2-duplicate_2/duplicate_2.cpp.i:
+	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/2-duplicate_2/duplicate_2.cpp.i
+.PHONY : 2-duplicate_2/duplicate_2.cpp.i
+
+2-duplicate_2/duplicate_2.s: 2-duplicate_2/duplicate_2.cpp.s
+
+.PHONY : 2-duplicate_2/duplicate_2.s
+
+# target to generate assembly for a file
+2-duplicate_2/duplicate_2.cpp.s:
+	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/2-duplicate_2/duplicate_2.cpp.s
+.PHONY : 2-duplicate_2/duplicate_2.cpp.s
 
 main.o: main.cpp.o
 
@@ -213,12 +240,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... GetMyOffer"
 	@echo "... edit_cache"
-	@echo "... cmystring/cmystring.o"
-	@echo "... cmystring/cmystring.i"
-	@echo "... cmystring/cmystring.s"
-	@echo "... duplicate/duplicate.o"
-	@echo "... duplicate/duplicate.i"
-	@echo "... duplicate/duplicate.s"
+	@echo "... 1-cmystring/cmystring.o"
+	@echo "... 1-cmystring/cmystring.i"
+	@echo "... 1-cmystring/cmystring.s"
+	@echo "... 2-duplicate/duplicate.o"
+	@echo "... 2-duplicate/duplicate.i"
+	@echo "... 2-duplicate/duplicate.s"
+	@echo "... 2-duplicate_2/duplicate_2.o"
+	@echo "... 2-duplicate_2/duplicate_2.i"
+	@echo "... 2-duplicate_2/duplicate_2.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
