@@ -6,21 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/1-cmystring/cmystring.h
+/home/liumihan/Desktop/LeetCode_cpp/1-cmystring/cmystring.h
 cstring
 -
 cstdio
 -
 
-/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/2-duplicate/duplicate.h
+/home/liumihan/Desktop/LeetCode_cpp/2-duplicate/duplicate.h
 
-/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/main.cpp
+/home/liumihan/Desktop/LeetCode_cpp/2-duplicate_2/duplicate_2.h
+
+/home/liumihan/Desktop/LeetCode_cpp/main.cpp
 iostream
 -
 cstdio
 -
 1-cmystring/cmystring.h
-/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/1-cmystring/cmystring.h
+/home/liumihan/Desktop/LeetCode_cpp/1-cmystring/cmystring.h
 2-duplicate/duplicate.h
-/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/2-duplicate/duplicate.h
+/home/liumihan/Desktop/LeetCode_cpp/2-duplicate/duplicate.h
+2-duplicate_2/duplicate_2.h
+/home/liumihan/Desktop/LeetCode_cpp/2-duplicate_2/duplicate_2.h
 

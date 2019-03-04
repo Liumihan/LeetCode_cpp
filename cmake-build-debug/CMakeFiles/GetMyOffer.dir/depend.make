@@ -12,5 +12,6 @@ CMakeFiles/GetMyOffer.dir/2-duplicate_2/duplicate_2.cpp.o: ../2-duplicate_2/dupl
 
 CMakeFiles/GetMyOffer.dir/main.cpp.o: ../1-cmystring/cmystring.h
 CMakeFiles/GetMyOffer.dir/main.cpp.o: ../2-duplicate/duplicate.h
+CMakeFiles/GetMyOffer.dir/main.cpp.o: ../2-duplicate_2/duplicate_2.h
 CMakeFiles/GetMyOffer.dir/main.cpp.o: ../main.cpp
 

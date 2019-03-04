@@ -1,3 +1,3 @@
-/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/CMakeFiles/GetMyOffer.dir
-/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/liumihan/Desktop/LeetCode_cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/liumihan/Desktop/LeetCode_cpp/cmake-build-debug/CMakeFiles/GetMyOffer.dir
+/home/liumihan/Desktop/LeetCode_cpp/cmake-build-debug/CMakeFiles/edit_cache.dir

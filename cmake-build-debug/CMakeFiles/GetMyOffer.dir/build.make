@@ -43,10 +43,10 @@ RM = /opt/clion-2018.3.3/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp
+CMAKE_SOURCE_DIR = /home/liumihan/Desktop/LeetCode_cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug
+CMAKE_BINARY_DIR = /home/liumihan/Desktop/LeetCode_cpp/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/GetMyOffer.dir/depend.make
@@ -59,55 +59,55 @@ include CMakeFiles/GetMyOffer.dir/flags.make
 
 CMakeFiles/GetMyOffer.dir/main.cpp.o: CMakeFiles/GetMyOffer.dir/flags.make
 CMakeFiles/GetMyOffer.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GetMyOffer.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GetMyOffer.dir/main.cpp.o -c /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liumihan/Desktop/LeetCode_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GetMyOffer.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GetMyOffer.dir/main.cpp.o -c /home/liumihan/Desktop/LeetCode_cpp/main.cpp
 
 CMakeFiles/GetMyOffer.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GetMyOffer.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/main.cpp > CMakeFiles/GetMyOffer.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liumihan/Desktop/LeetCode_cpp/main.cpp > CMakeFiles/GetMyOffer.dir/main.cpp.i
 
 CMakeFiles/GetMyOffer.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GetMyOffer.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/main.cpp -o CMakeFiles/GetMyOffer.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liumihan/Desktop/LeetCode_cpp/main.cpp -o CMakeFiles/GetMyOffer.dir/main.cpp.s
 
 CMakeFiles/GetMyOffer.dir/1-cmystring/cmystring.cpp.o: CMakeFiles/GetMyOffer.dir/flags.make
 CMakeFiles/GetMyOffer.dir/1-cmystring/cmystring.cpp.o: ../1-cmystring/cmystring.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GetMyOffer.dir/1-cmystring/cmystring.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GetMyOffer.dir/1-cmystring/cmystring.cpp.o -c /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/1-cmystring/cmystring.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liumihan/Desktop/LeetCode_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GetMyOffer.dir/1-cmystring/cmystring.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GetMyOffer.dir/1-cmystring/cmystring.cpp.o -c /home/liumihan/Desktop/LeetCode_cpp/1-cmystring/cmystring.cpp
 
 CMakeFiles/GetMyOffer.dir/1-cmystring/cmystring.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GetMyOffer.dir/1-cmystring/cmystring.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/1-cmystring/cmystring.cpp > CMakeFiles/GetMyOffer.dir/1-cmystring/cmystring.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liumihan/Desktop/LeetCode_cpp/1-cmystring/cmystring.cpp > CMakeFiles/GetMyOffer.dir/1-cmystring/cmystring.cpp.i
 
 CMakeFiles/GetMyOffer.dir/1-cmystring/cmystring.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GetMyOffer.dir/1-cmystring/cmystring.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/1-cmystring/cmystring.cpp -o CMakeFiles/GetMyOffer.dir/1-cmystring/cmystring.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liumihan/Desktop/LeetCode_cpp/1-cmystring/cmystring.cpp -o CMakeFiles/GetMyOffer.dir/1-cmystring/cmystring.cpp.s
 
 CMakeFiles/GetMyOffer.dir/2-duplicate/duplicate.cpp.o: CMakeFiles/GetMyOffer.dir/flags.make
 CMakeFiles/GetMyOffer.dir/2-duplicate/duplicate.cpp.o: ../2-duplicate/duplicate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GetMyOffer.dir/2-duplicate/duplicate.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GetMyOffer.dir/2-duplicate/duplicate.cpp.o -c /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/2-duplicate/duplicate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liumihan/Desktop/LeetCode_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/GetMyOffer.dir/2-duplicate/duplicate.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GetMyOffer.dir/2-duplicate/duplicate.cpp.o -c /home/liumihan/Desktop/LeetCode_cpp/2-duplicate/duplicate.cpp
 
 CMakeFiles/GetMyOffer.dir/2-duplicate/duplicate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GetMyOffer.dir/2-duplicate/duplicate.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/2-duplicate/duplicate.cpp > CMakeFiles/GetMyOffer.dir/2-duplicate/duplicate.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liumihan/Desktop/LeetCode_cpp/2-duplicate/duplicate.cpp > CMakeFiles/GetMyOffer.dir/2-duplicate/duplicate.cpp.i
 
 CMakeFiles/GetMyOffer.dir/2-duplicate/duplicate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GetMyOffer.dir/2-duplicate/duplicate.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/2-duplicate/duplicate.cpp -o CMakeFiles/GetMyOffer.dir/2-duplicate/duplicate.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liumihan/Desktop/LeetCode_cpp/2-duplicate/duplicate.cpp -o CMakeFiles/GetMyOffer.dir/2-duplicate/duplicate.cpp.s
 
 CMakeFiles/GetMyOffer.dir/2-duplicate_2/duplicate_2.cpp.o: CMakeFiles/GetMyOffer.dir/flags.make
 CMakeFiles/GetMyOffer.dir/2-duplicate_2/duplicate_2.cpp.o: ../2-duplicate_2/duplicate_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GetMyOffer.dir/2-duplicate_2/duplicate_2.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GetMyOffer.dir/2-duplicate_2/duplicate_2.cpp.o -c /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/2-duplicate_2/duplicate_2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liumihan/Desktop/LeetCode_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GetMyOffer.dir/2-duplicate_2/duplicate_2.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GetMyOffer.dir/2-duplicate_2/duplicate_2.cpp.o -c /home/liumihan/Desktop/LeetCode_cpp/2-duplicate_2/duplicate_2.cpp
 
 CMakeFiles/GetMyOffer.dir/2-duplicate_2/duplicate_2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GetMyOffer.dir/2-duplicate_2/duplicate_2.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/2-duplicate_2/duplicate_2.cpp > CMakeFiles/GetMyOffer.dir/2-duplicate_2/duplicate_2.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liumihan/Desktop/LeetCode_cpp/2-duplicate_2/duplicate_2.cpp > CMakeFiles/GetMyOffer.dir/2-duplicate_2/duplicate_2.cpp.i
 
 CMakeFiles/GetMyOffer.dir/2-duplicate_2/duplicate_2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GetMyOffer.dir/2-duplicate_2/duplicate_2.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/2-duplicate_2/duplicate_2.cpp -o CMakeFiles/GetMyOffer.dir/2-duplicate_2/duplicate_2.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liumihan/Desktop/LeetCode_cpp/2-duplicate_2/duplicate_2.cpp -o CMakeFiles/GetMyOffer.dir/2-duplicate_2/duplicate_2.cpp.s
 
 # Object files for target GetMyOffer
 GetMyOffer_OBJECTS = \
@@ -125,7 +125,7 @@ GetMyOffer: CMakeFiles/GetMyOffer.dir/2-duplicate/duplicate.cpp.o
 GetMyOffer: CMakeFiles/GetMyOffer.dir/2-duplicate_2/duplicate_2.cpp.o
 GetMyOffer: CMakeFiles/GetMyOffer.dir/build.make
 GetMyOffer: CMakeFiles/GetMyOffer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable GetMyOffer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/liumihan/Desktop/LeetCode_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable GetMyOffer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GetMyOffer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -138,6 +138,6 @@ CMakeFiles/GetMyOffer.dir/clean:
 .PHONY : CMakeFiles/GetMyOffer.dir/clean
 
 CMakeFiles/GetMyOffer.dir/depend:
-	cd /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/CMakeFiles/GetMyOffer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/liumihan/Desktop/LeetCode_cpp/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/liumihan/Desktop/LeetCode_cpp /home/liumihan/Desktop/LeetCode_cpp /home/liumihan/Desktop/LeetCode_cpp/cmake-build-debug /home/liumihan/Desktop/LeetCode_cpp/cmake-build-debug /home/liumihan/Desktop/LeetCode_cpp/cmake-build-debug/CMakeFiles/GetMyOffer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/GetMyOffer.dir/depend
 

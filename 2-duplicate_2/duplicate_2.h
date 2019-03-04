@@ -9,6 +9,8 @@
 class Duplicate_2 {
 public:
     static int getDuplication(int nums[], int length);
+    static int countRange(const int* numbers, int length, int start, int end);
+
 };
 
 
