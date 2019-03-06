@@ -106,6 +106,18 @@
 		<Unit filename="/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/2-duplicate_2/duplicate_2.h">
 			<Option target="GetMyOffer"/>
 		</Unit>
+		<Unit filename="/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/Algorithm/search.cpp">
+			<Option target="GetMyOffer"/>
+		</Unit>
+		<Unit filename="/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/Algorithm/search.h">
+			<Option target="GetMyOffer"/>
+		</Unit>
+		<Unit filename="/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/Algorithm/sort.cpp">
+			<Option target="GetMyOffer"/>
+		</Unit>
+		<Unit filename="/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/Algorithm/sort.h">
+			<Option target="GetMyOffer"/>
+		</Unit>
 		<Unit filename="/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/bin_find/BinFind.cpp">
 			<Option target="GetMyOffer"/>
 		</Unit>

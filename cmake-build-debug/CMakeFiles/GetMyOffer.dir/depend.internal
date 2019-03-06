@@ -10,6 +10,12 @@ CMakeFiles/GetMyOffer.dir/2-duplicate/duplicate.cpp.o
 CMakeFiles/GetMyOffer.dir/2-duplicate_2/duplicate_2.cpp.o
  /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/2-duplicate_2/duplicate_2.cpp
  /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/2-duplicate_2/duplicate_2.h
+CMakeFiles/GetMyOffer.dir/Algorithm/search.cpp.o
+ /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/Algorithm/search.cpp
+ /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/Algorithm/search.h
+CMakeFiles/GetMyOffer.dir/Algorithm/sort.cpp.o
+ /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/Algorithm/sort.cpp
+ /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/Algorithm/sort.h
 CMakeFiles/GetMyOffer.dir/bin_find/BinFind.cpp.o
  /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/bin_find/BinFind.cpp
  /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/bin_find/BinFind.h
@@ -20,6 +26,8 @@ CMakeFiles/GetMyOffer.dir/main.cpp.o
  /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/1-cmystring/cmystring.h
  /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/2-duplicate/duplicate.h
  /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/2-duplicate_2/duplicate_2.h
+ /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/Algorithm/search.h
+ /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/Algorithm/sort.h
  /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/bin_find/BinFind.h
  /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/lookup_table/lookuptable.h
  /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/main.cpp

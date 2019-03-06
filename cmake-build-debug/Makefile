@@ -204,6 +204,60 @@ GetMyOffer/fast:
 	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/2-duplicate_2/duplicate_2.cpp.s
 .PHONY : 2-duplicate_2/duplicate_2.cpp.s
 
+Algorithm/search.o: Algorithm/search.cpp.o
+
+.PHONY : Algorithm/search.o
+
+# target to build an object file
+Algorithm/search.cpp.o:
+	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/Algorithm/search.cpp.o
+.PHONY : Algorithm/search.cpp.o
+
+Algorithm/search.i: Algorithm/search.cpp.i
+
+.PHONY : Algorithm/search.i
+
+# target to preprocess a source file
+Algorithm/search.cpp.i:
+	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/Algorithm/search.cpp.i
+.PHONY : Algorithm/search.cpp.i
+
+Algorithm/search.s: Algorithm/search.cpp.s
+
+.PHONY : Algorithm/search.s
+
+# target to generate assembly for a file
+Algorithm/search.cpp.s:
+	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/Algorithm/search.cpp.s
+.PHONY : Algorithm/search.cpp.s
+
+Algorithm/sort.o: Algorithm/sort.cpp.o
+
+.PHONY : Algorithm/sort.o
+
+# target to build an object file
+Algorithm/sort.cpp.o:
+	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/Algorithm/sort.cpp.o
+.PHONY : Algorithm/sort.cpp.o
+
+Algorithm/sort.i: Algorithm/sort.cpp.i
+
+.PHONY : Algorithm/sort.i
+
+# target to preprocess a source file
+Algorithm/sort.cpp.i:
+	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/Algorithm/sort.cpp.i
+.PHONY : Algorithm/sort.cpp.i
+
+Algorithm/sort.s: Algorithm/sort.cpp.s
+
+.PHONY : Algorithm/sort.s
+
+# target to generate assembly for a file
+Algorithm/sort.cpp.s:
+	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/Algorithm/sort.cpp.s
+.PHONY : Algorithm/sort.cpp.s
+
 bin_find/BinFind.o: bin_find/BinFind.cpp.o
 
 .PHONY : bin_find/BinFind.o
@@ -303,6 +357,12 @@ help:
 	@echo "... 2-duplicate_2/duplicate_2.o"
 	@echo "... 2-duplicate_2/duplicate_2.i"
 	@echo "... 2-duplicate_2/duplicate_2.s"
+	@echo "... Algorithm/search.o"
+	@echo "... Algorithm/search.i"
+	@echo "... Algorithm/search.s"
+	@echo "... Algorithm/sort.o"
+	@echo "... Algorithm/sort.i"
+	@echo "... Algorithm/sort.s"
 	@echo "... bin_find/BinFind.o"
 	@echo "... bin_find/BinFind.i"
 	@echo "... bin_find/BinFind.s"

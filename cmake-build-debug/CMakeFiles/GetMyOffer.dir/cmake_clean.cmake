@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GetMyOffer.dir/2-duplicate_2/duplicate_2.cpp.o"
   "CMakeFiles/GetMyOffer.dir/bin_find/BinFind.cpp.o"
   "CMakeFiles/GetMyOffer.dir/lookup_table/lookuptable.cpp.o"
+  "CMakeFiles/GetMyOffer.dir/Algorithm/search.cpp.o"
+  "CMakeFiles/GetMyOffer.dir/Algorithm/sort.cpp.o"
   "GetMyOffer.pdb"
   "GetMyOffer"
 )

@@ -6,35 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/1-cmystring/cmystring.h
-cstring
+/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/Algorithm/sort.cpp
+sort.h
+/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/Algorithm/sort.h
+
+/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/Algorithm/sort.h
+vector
 -
-cstdio
--
-
-/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/2-duplicate/duplicate.h
-
-/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/2-duplicate_2/duplicate_2.h
-
-/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/bin_find/BinFind.h
-
-/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/lookup_table/lookuptable.h
-
-/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/main.cpp
-iostream
--
-cstdio
--
-1-cmystring/cmystring.h
-/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/1-cmystring/cmystring.h
-2-duplicate/duplicate.h
-/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/2-duplicate/duplicate.h
-2-duplicate_2/duplicate_2.h
-/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/2-duplicate_2/duplicate_2.h
-bin_find/BinFind.h
-/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/bin_find/BinFind.h
-lookup_table/lookuptable.h
-/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/lookup_table/lookuptable.h
-cmath
-/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmath
 

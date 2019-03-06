@@ -135,6 +135,32 @@ CMakeFiles/GetMyOffer.dir/lookup_table/lookuptable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GetMyOffer.dir/lookup_table/lookuptable.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/lookup_table/lookuptable.cpp -o CMakeFiles/GetMyOffer.dir/lookup_table/lookuptable.cpp.s
 
+CMakeFiles/GetMyOffer.dir/Algorithm/search.cpp.o: CMakeFiles/GetMyOffer.dir/flags.make
+CMakeFiles/GetMyOffer.dir/Algorithm/search.cpp.o: ../Algorithm/search.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/GetMyOffer.dir/Algorithm/search.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GetMyOffer.dir/Algorithm/search.cpp.o -c /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/Algorithm/search.cpp
+
+CMakeFiles/GetMyOffer.dir/Algorithm/search.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GetMyOffer.dir/Algorithm/search.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/Algorithm/search.cpp > CMakeFiles/GetMyOffer.dir/Algorithm/search.cpp.i
+
+CMakeFiles/GetMyOffer.dir/Algorithm/search.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GetMyOffer.dir/Algorithm/search.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/Algorithm/search.cpp -o CMakeFiles/GetMyOffer.dir/Algorithm/search.cpp.s
+
+CMakeFiles/GetMyOffer.dir/Algorithm/sort.cpp.o: CMakeFiles/GetMyOffer.dir/flags.make
+CMakeFiles/GetMyOffer.dir/Algorithm/sort.cpp.o: ../Algorithm/sort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/GetMyOffer.dir/Algorithm/sort.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GetMyOffer.dir/Algorithm/sort.cpp.o -c /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/Algorithm/sort.cpp
+
+CMakeFiles/GetMyOffer.dir/Algorithm/sort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GetMyOffer.dir/Algorithm/sort.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/Algorithm/sort.cpp > CMakeFiles/GetMyOffer.dir/Algorithm/sort.cpp.i
+
+CMakeFiles/GetMyOffer.dir/Algorithm/sort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GetMyOffer.dir/Algorithm/sort.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/Algorithm/sort.cpp -o CMakeFiles/GetMyOffer.dir/Algorithm/sort.cpp.s
+
 # Object files for target GetMyOffer
 GetMyOffer_OBJECTS = \
 "CMakeFiles/GetMyOffer.dir/main.cpp.o" \
@@ -142,7 +168,9 @@ GetMyOffer_OBJECTS = \
 "CMakeFiles/GetMyOffer.dir/2-duplicate/duplicate.cpp.o" \
 "CMakeFiles/GetMyOffer.dir/2-duplicate_2/duplicate_2.cpp.o" \
 "CMakeFiles/GetMyOffer.dir/bin_find/BinFind.cpp.o" \
-"CMakeFiles/GetMyOffer.dir/lookup_table/lookuptable.cpp.o"
+"CMakeFiles/GetMyOffer.dir/lookup_table/lookuptable.cpp.o" \
+"CMakeFiles/GetMyOffer.dir/Algorithm/search.cpp.o" \
+"CMakeFiles/GetMyOffer.dir/Algorithm/sort.cpp.o"
 
 # External object files for target GetMyOffer
 GetMyOffer_EXTERNAL_OBJECTS =
@@ -153,9 +181,11 @@ GetMyOffer: CMakeFiles/GetMyOffer.dir/2-duplicate/duplicate.cpp.o
 GetMyOffer: CMakeFiles/GetMyOffer.dir/2-duplicate_2/duplicate_2.cpp.o
 GetMyOffer: CMakeFiles/GetMyOffer.dir/bin_find/BinFind.cpp.o
 GetMyOffer: CMakeFiles/GetMyOffer.dir/lookup_table/lookuptable.cpp.o
+GetMyOffer: CMakeFiles/GetMyOffer.dir/Algorithm/search.cpp.o
+GetMyOffer: CMakeFiles/GetMyOffer.dir/Algorithm/sort.cpp.o
 GetMyOffer: CMakeFiles/GetMyOffer.dir/build.make
 GetMyOffer: CMakeFiles/GetMyOffer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable GetMyOffer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable GetMyOffer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GetMyOffer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
