@@ -48,10 +48,10 @@ RM = /opt/clion-2018.3.3/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liumihan/Desktop/LeetCode_cpp
+CMAKE_SOURCE_DIR = /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liumihan/Desktop/LeetCode_cpp/cmake-build-debug
+CMAKE_BINARY_DIR = /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/liumihan/Desktop/LeetCode_cpp/cmake-build-debug/CMakeFiles /home/liumihan/Desktop/LeetCode_cpp/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/CMakeFiles /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/liumihan/Desktop/LeetCode_cpp/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -204,6 +204,60 @@ GetMyOffer/fast:
 	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/2-duplicate_2/duplicate_2.cpp.s
 .PHONY : 2-duplicate_2/duplicate_2.cpp.s
 
+bin_find/BinFind.o: bin_find/BinFind.cpp.o
+
+.PHONY : bin_find/BinFind.o
+
+# target to build an object file
+bin_find/BinFind.cpp.o:
+	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/bin_find/BinFind.cpp.o
+.PHONY : bin_find/BinFind.cpp.o
+
+bin_find/BinFind.i: bin_find/BinFind.cpp.i
+
+.PHONY : bin_find/BinFind.i
+
+# target to preprocess a source file
+bin_find/BinFind.cpp.i:
+	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/bin_find/BinFind.cpp.i
+.PHONY : bin_find/BinFind.cpp.i
+
+bin_find/BinFind.s: bin_find/BinFind.cpp.s
+
+.PHONY : bin_find/BinFind.s
+
+# target to generate assembly for a file
+bin_find/BinFind.cpp.s:
+	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/bin_find/BinFind.cpp.s
+.PHONY : bin_find/BinFind.cpp.s
+
+lookup_table/lookuptable.o: lookup_table/lookuptable.cpp.o
+
+.PHONY : lookup_table/lookuptable.o
+
+# target to build an object file
+lookup_table/lookuptable.cpp.o:
+	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/lookup_table/lookuptable.cpp.o
+.PHONY : lookup_table/lookuptable.cpp.o
+
+lookup_table/lookuptable.i: lookup_table/lookuptable.cpp.i
+
+.PHONY : lookup_table/lookuptable.i
+
+# target to preprocess a source file
+lookup_table/lookuptable.cpp.i:
+	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/lookup_table/lookuptable.cpp.i
+.PHONY : lookup_table/lookuptable.cpp.i
+
+lookup_table/lookuptable.s: lookup_table/lookuptable.cpp.s
+
+.PHONY : lookup_table/lookuptable.s
+
+# target to generate assembly for a file
+lookup_table/lookuptable.cpp.s:
+	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/lookup_table/lookuptable.cpp.s
+.PHONY : lookup_table/lookuptable.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -249,6 +303,12 @@ help:
 	@echo "... 2-duplicate_2/duplicate_2.o"
 	@echo "... 2-duplicate_2/duplicate_2.i"
 	@echo "... 2-duplicate_2/duplicate_2.s"
+	@echo "... bin_find/BinFind.o"
+	@echo "... bin_find/BinFind.i"
+	@echo "... bin_find/BinFind.s"
+	@echo "... lookup_table/lookuptable.o"
+	@echo "... lookup_table/lookuptable.i"
+	@echo "... lookup_table/lookuptable.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -10,8 +10,16 @@ CMakeFiles/GetMyOffer.dir/2-duplicate/duplicate.cpp.o: ../2-duplicate/duplicate.
 CMakeFiles/GetMyOffer.dir/2-duplicate_2/duplicate_2.cpp.o: ../2-duplicate_2/duplicate_2.cpp
 CMakeFiles/GetMyOffer.dir/2-duplicate_2/duplicate_2.cpp.o: ../2-duplicate_2/duplicate_2.h
 
+CMakeFiles/GetMyOffer.dir/bin_find/BinFind.cpp.o: ../bin_find/BinFind.cpp
+CMakeFiles/GetMyOffer.dir/bin_find/BinFind.cpp.o: ../bin_find/BinFind.h
+
+CMakeFiles/GetMyOffer.dir/lookup_table/lookuptable.cpp.o: ../lookup_table/lookuptable.cpp
+CMakeFiles/GetMyOffer.dir/lookup_table/lookuptable.cpp.o: ../lookup_table/lookuptable.h
+
 CMakeFiles/GetMyOffer.dir/main.cpp.o: ../1-cmystring/cmystring.h
 CMakeFiles/GetMyOffer.dir/main.cpp.o: ../2-duplicate/duplicate.h
 CMakeFiles/GetMyOffer.dir/main.cpp.o: ../2-duplicate_2/duplicate_2.h
+CMakeFiles/GetMyOffer.dir/main.cpp.o: ../bin_find/BinFind.h
+CMakeFiles/GetMyOffer.dir/main.cpp.o: ../lookup_table/lookuptable.h
 CMakeFiles/GetMyOffer.dir/main.cpp.o: ../main.cpp
 

@@ -3,7 +3,9 @@
 #include "1-cmystring/cmystring.h"
 #include "2-duplicate/duplicate.h"
 #include "2-duplicate_2/duplicate_2.h"
-
+#include "bin_find/BinFind.h"
+#include "lookup_table/lookuptable.h"
+#include "cmath"
 int main() {
     std::cout << "Hello, World!" << std::endl;
     // #1 CMystring
@@ -23,19 +25,33 @@ int main() {
 //        printf("Don't have\n");
 
     // #3 2-duplicate_2
-    int num1[] = {2, 3, 4, 2, 5, 4};
-    int num2[] = {1, 2, 3, 4, 5};
-    int num3[] = {};
-    int* num4 = nullptr;
+//    int num1[] = {2, 3, 4, 2, 5, 4};
+//    int num2[] = {1, 2, 3, 4, 5};
+//    int num3[] = {};
+//    int* num4 = nullptr;
+//
+//    int result = Duplicate_2::getDuplication(num2, sizeof(num2) / sizeof(int));
+//    printf("result %d\n", result);
+//
+//    // playground
+//    int a = -1;
+//    int b = 6;
+//    int c = (a + b) >> 1; //右移一位相当于除以2
+//    printf("c: %d\n", c);
 
-    int result = Duplicate_2::getDuplication(num2, sizeof(num2) / sizeof(int));
-    printf("result %d\n", result);
-
-    // playground
-    int a = -1;
-    int b = 6;
-    int c = (a + b) >> 1; //右移一位相当于除以2
-    printf("c: %d\n", c);
-
+    //bin_find
+//    int nums[] = {2, 2, 3, 4, 5, 5, 6, 7};
+//    int zeros[10] = {0};
+//    int val = 4;
+//    int found = -1;
+//    found = BinFind::find(nums, sizeof(nums) / sizeof(int), val);
+//    printf("pos: %d %s.", found, "123");
+    //Lookup table
+    LookUpTable LT(&sin);
+    LT.table;
+    double sin1 = LT.table[90];
+    double *ta = LT.table; //数组名就是一个指针
+    printf("ta: %f", ta[90]);
+    printf("True: %f  Pre: %f",sin(90 * 3.1415 / 180), sin1);
     return 0;
 }
