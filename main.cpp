@@ -67,7 +67,10 @@ int main() {
 //    printf("Search: %d", find);
     //Sort
     std::vector<int> v = {5, 4, 2, 1, 3, 6, 5};
-    Sort::bubbleSort(v);
+//    Sort::bubbleSort(v);
+//    Sort::selectSort(v);
+//    Sort::insertSort(v);
+    Sort::quickSort(v);
     for(int i = 0; i < v.size(); ++i){
         printf("%d, ", v[i]);
     }
