@@ -70,10 +70,15 @@ int main() {
 //    Sort::bubbleSort(v);
 //    Sort::selectSort(v);
 //    Sort::insertSort(v);
-    Sort::quickSort(v);
+//    Sort::quickSort(v, 0, v.size() - 1);
+//    Sort::m_quickSort(v, 0, v.size() - 1);
+//    Sort::merge(v1, 0, 3, 7);
+    Sort::mergeSort(v, 0, v.size() - 1);
     for(int i = 0; i < v.size(); ++i){
         printf("%d, ", v[i]);
     }
     printf("\n");
+
+
     return 0;
 }

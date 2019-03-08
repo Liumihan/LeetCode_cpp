@@ -34,6 +34,7 @@ void Sort::selectSort(std::vector<int>& v) {
         }
     }
 }
+
 /*
 
 插入排序思路：
@@ -60,22 +61,115 @@ void Sort::insertSort(std::vector<int> &v) {
     }
 }
 
-void Sort::quickSort(std::vector<int> &v, int low, int high) {
-    int pivot = v[0];
-    if(low >= high)
+void Sort::quickSort(std::vector<int> &v, int low, int high){
+    /*
+    * v：待排序的数组；
+    * low , high:待排序的区间 */
+    if(low >= high){
         return;
+    }
+    int i = low; //两个滑动指针
+    int j = high;
+    int key = v[i];
 
+    while(i < j){ //当i < j的时候，i和j分别执行一次滑动
+        //向左边滑动j
+        while(v[j] >= key && i < j){
+            j--;
+        }
+        //找到了第一个比key小的数，交换(此时的key值在i的位置）
+        if(i < j){
+            int temp;
+            temp = v[j];
+            v[j] = v[i];
+            v[i] = temp;
+        }
+
+        //向右边滑动i
+        while(v[i] <= key && i < j){
+            ++i;
+        }
+        //找到第一个比key大的数字，交换（此时key的值在j的位置）
+        if(i < j){
+            int temp = v[i];
+            v[i] = v[j];
+            v[j] = temp;
+        }
+    }
+    //执行了一次快排之后，i和j是重合了的
+
+    //对key左侧的和右侧的重复操作
+    quickSort(v, low, i - 1);
+    quickSort(v, i + 1, high);
 }
 
-void Sort::partQuickSort(std::vector<int> &v) {
-    int last = v.size() - 1;
-    int pivot = v[0];
-    int first = 1;
-    while(last > first){
-        while(v[last] >= pivot && last > first)
-            --last;
-
+void Sort::m_quickSort(std::vector<int> &v, int low, int high) {
+    //最后一步 填写终止迭代的条件
+    if(low >= high){
+        return;
     }
 
 
+    //初始左右滑动指针
+    int i = low;
+    int j = high;
+    int pivot = v[low];
+
+    while(i < j){
+        //从右边开始滑动到左边，找到第一个比pivot小的数字；
+        while(v[j] >= pivot && i < j)
+            --j;
+        //交换 (现在的pivot是在i这个位置）
+        int temp = v[j];
+        v[j] = v[i];
+        v[i] = temp;
+
+        //从左边往右边滑动，找到第一个比pivot大的数字；
+        while(v[i] <= pivot && i < j)
+            ++i;
+        int temp2 = v[i];
+        v[i] = v[j];
+        v[j] = temp2;
+        //一次滑动结束 此时 i == j
+    }
+    //一次快拍结束 此时 i == j
+
+    m_quickSort(v, low, i - 1);
+    m_quickSort(v, i + 1, high);
+}
+
+void Sort::merge(std::vector<int> &v, int low, int high) {
+    std::vector<int> temp;
+    int mid = low + (high - low) / 2;
+    int left_low = low;
+    int left_high = mid;
+    int right_low = mid + 1;
+    int right_high = high;
+    while(left_low <= left_high && right_low <= right_high)
+        if(v[left_low] <= v[right_low])
+            temp.push_back(v[left_low++]);
+        else
+            temp.push_back(v[right_low++]);
+    while(left_low <= left_high)
+         temp.push_back(v[left_low++]);
+    while(right_low <= right_high)
+         temp.push_back(v[right_low++]);
+    // 这里要注意啊！ 不能直接吧temp赋值给v 这样就不对了
+    for (int i = 0; i < high - low + 1; ++i) {
+        v[low + i] = temp[i];
+    }
+    return;
+}
+
+// 参数 是 待排序数组、待排序的区间
+// 思路 先写一个merge 函数， 注意在merge函数里面需要的是赋值而不是更改整个vector。
+// 然后在递归的时候要做到递归，使用后序列遍历。
+void Sort::mergeSort(std::vector<int> &v, int low, int high) {
+    if(low >= high)
+        return;
+    int mid = (low + high) / 2;
+    mergeSort(v, low, mid);
+    mergeSort(v, mid + 1, high);
+    merge(v, low, high);
+    return;
 }

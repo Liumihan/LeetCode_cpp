@@ -13,7 +13,10 @@ public:
     static void selectSort(std::vector<int>& v);
     static void insertSort(std::vector<int>& v);
     static void quickSort(std::vector<int>& v, int low, int high);
-    static void partQuickSort(std::vector<int>& v);
+    static void m_quickSort(std::vector<int>& v, int low, int high);
+    static void merge(std::vector<int>& v, int low, int high);
+    static void mergeSort(std::vector<int>& v, int low, int high);
+
 };
 
 
