@@ -48,10 +48,10 @@ RM = /opt/clion-2018.3.3/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp
+CMAKE_SOURCE_DIR = /home/liumihan/Desktop/刷题/LeetCode_cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug
+CMAKE_BINARY_DIR = /home/liumihan/Desktop/刷题/LeetCode_cpp/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/CMakeFiles /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liumihan/Desktop/刷题/LeetCode_cpp/cmake-build-debug/CMakeFiles /home/liumihan/Desktop/刷题/LeetCode_cpp/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/liumihan/Desktop/Learn/GetMyOffer/LeetCode_cpp/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/liumihan/Desktop/刷题/LeetCode_cpp/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -203,6 +203,114 @@ GetMyOffer/fast:
 2-duplicate_2/duplicate_2.cpp.s:
 	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/2-duplicate_2/duplicate_2.cpp.s
 .PHONY : 2-duplicate_2/duplicate_2.cpp.s
+
+2-find_2d_array/find2darray.o: 2-find_2d_array/find2darray.cpp.o
+
+.PHONY : 2-find_2d_array/find2darray.o
+
+# target to build an object file
+2-find_2d_array/find2darray.cpp.o:
+	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/2-find_2d_array/find2darray.cpp.o
+.PHONY : 2-find_2d_array/find2darray.cpp.o
+
+2-find_2d_array/find2darray.i: 2-find_2d_array/find2darray.cpp.i
+
+.PHONY : 2-find_2d_array/find2darray.i
+
+# target to preprocess a source file
+2-find_2d_array/find2darray.cpp.i:
+	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/2-find_2d_array/find2darray.cpp.i
+.PHONY : 2-find_2d_array/find2darray.cpp.i
+
+2-find_2d_array/find2darray.s: 2-find_2d_array/find2darray.cpp.s
+
+.PHONY : 2-find_2d_array/find2darray.s
+
+# target to generate assembly for a file
+2-find_2d_array/find2darray.cpp.s:
+	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/2-find_2d_array/find2darray.cpp.s
+.PHONY : 2-find_2d_array/find2darray.cpp.s
+
+2-replace_blank/replaceblank.o: 2-replace_blank/replaceblank.cpp.o
+
+.PHONY : 2-replace_blank/replaceblank.o
+
+# target to build an object file
+2-replace_blank/replaceblank.cpp.o:
+	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/2-replace_blank/replaceblank.cpp.o
+.PHONY : 2-replace_blank/replaceblank.cpp.o
+
+2-replace_blank/replaceblank.i: 2-replace_blank/replaceblank.cpp.i
+
+.PHONY : 2-replace_blank/replaceblank.i
+
+# target to preprocess a source file
+2-replace_blank/replaceblank.cpp.i:
+	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/2-replace_blank/replaceblank.cpp.i
+.PHONY : 2-replace_blank/replaceblank.cpp.i
+
+2-replace_blank/replaceblank.s: 2-replace_blank/replaceblank.cpp.s
+
+.PHONY : 2-replace_blank/replaceblank.s
+
+# target to generate assembly for a file
+2-replace_blank/replaceblank.cpp.s:
+	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/2-replace_blank/replaceblank.cpp.s
+.PHONY : 2-replace_blank/replaceblank.cpp.s
+
+Algorithm/ceshi/search.o: Algorithm/ceshi/search.cpp.o
+
+.PHONY : Algorithm/ceshi/search.o
+
+# target to build an object file
+Algorithm/ceshi/search.cpp.o:
+	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/Algorithm/ceshi/search.cpp.o
+.PHONY : Algorithm/ceshi/search.cpp.o
+
+Algorithm/ceshi/search.i: Algorithm/ceshi/search.cpp.i
+
+.PHONY : Algorithm/ceshi/search.i
+
+# target to preprocess a source file
+Algorithm/ceshi/search.cpp.i:
+	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/Algorithm/ceshi/search.cpp.i
+.PHONY : Algorithm/ceshi/search.cpp.i
+
+Algorithm/ceshi/search.s: Algorithm/ceshi/search.cpp.s
+
+.PHONY : Algorithm/ceshi/search.s
+
+# target to generate assembly for a file
+Algorithm/ceshi/search.cpp.s:
+	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/Algorithm/ceshi/search.cpp.s
+.PHONY : Algorithm/ceshi/search.cpp.s
+
+Algorithm/ceshi/sort.o: Algorithm/ceshi/sort.cpp.o
+
+.PHONY : Algorithm/ceshi/sort.o
+
+# target to build an object file
+Algorithm/ceshi/sort.cpp.o:
+	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/Algorithm/ceshi/sort.cpp.o
+.PHONY : Algorithm/ceshi/sort.cpp.o
+
+Algorithm/ceshi/sort.i: Algorithm/ceshi/sort.cpp.i
+
+.PHONY : Algorithm/ceshi/sort.i
+
+# target to preprocess a source file
+Algorithm/ceshi/sort.cpp.i:
+	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/Algorithm/ceshi/sort.cpp.i
+.PHONY : Algorithm/ceshi/sort.cpp.i
+
+Algorithm/ceshi/sort.s: Algorithm/ceshi/sort.cpp.s
+
+.PHONY : Algorithm/ceshi/sort.s
+
+# target to generate assembly for a file
+Algorithm/ceshi/sort.cpp.s:
+	$(MAKE) -f CMakeFiles/GetMyOffer.dir/build.make CMakeFiles/GetMyOffer.dir/Algorithm/ceshi/sort.cpp.s
+.PHONY : Algorithm/ceshi/sort.cpp.s
 
 Algorithm/search.o: Algorithm/search.cpp.o
 
@@ -357,6 +465,18 @@ help:
 	@echo "... 2-duplicate_2/duplicate_2.o"
 	@echo "... 2-duplicate_2/duplicate_2.i"
 	@echo "... 2-duplicate_2/duplicate_2.s"
+	@echo "... 2-find_2d_array/find2darray.o"
+	@echo "... 2-find_2d_array/find2darray.i"
+	@echo "... 2-find_2d_array/find2darray.s"
+	@echo "... 2-replace_blank/replaceblank.o"
+	@echo "... 2-replace_blank/replaceblank.i"
+	@echo "... 2-replace_blank/replaceblank.s"
+	@echo "... Algorithm/ceshi/search.o"
+	@echo "... Algorithm/ceshi/search.i"
+	@echo "... Algorithm/ceshi/search.s"
+	@echo "... Algorithm/ceshi/sort.o"
+	@echo "... Algorithm/ceshi/sort.i"
+	@echo "... Algorithm/ceshi/sort.s"
 	@echo "... Algorithm/search.o"
 	@echo "... Algorithm/search.i"
 	@echo "... Algorithm/search.s"

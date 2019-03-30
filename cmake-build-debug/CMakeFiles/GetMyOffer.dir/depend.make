@@ -10,6 +10,18 @@ CMakeFiles/GetMyOffer.dir/2-duplicate/duplicate.cpp.o: ../2-duplicate/duplicate.
 CMakeFiles/GetMyOffer.dir/2-duplicate_2/duplicate_2.cpp.o: ../2-duplicate_2/duplicate_2.cpp
 CMakeFiles/GetMyOffer.dir/2-duplicate_2/duplicate_2.cpp.o: ../2-duplicate_2/duplicate_2.h
 
+CMakeFiles/GetMyOffer.dir/2-find_2d_array/find2darray.cpp.o: ../2-find_2d_array/find2darray.cpp
+CMakeFiles/GetMyOffer.dir/2-find_2d_array/find2darray.cpp.o: ../2-find_2d_array/find2darray.h
+
+CMakeFiles/GetMyOffer.dir/2-replace_blank/replaceblank.cpp.o: ../2-replace_blank/replaceblank.cpp
+CMakeFiles/GetMyOffer.dir/2-replace_blank/replaceblank.cpp.o: ../2-replace_blank/replaceblank.h
+
+CMakeFiles/GetMyOffer.dir/Algorithm/ceshi/search.cpp.o: ../Algorithm/ceshi/search.cpp
+CMakeFiles/GetMyOffer.dir/Algorithm/ceshi/search.cpp.o: ../Algorithm/ceshi/search.h
+
+CMakeFiles/GetMyOffer.dir/Algorithm/ceshi/sort.cpp.o: ../Algorithm/ceshi/sort.cpp
+CMakeFiles/GetMyOffer.dir/Algorithm/ceshi/sort.cpp.o: ../Algorithm/ceshi/sort.h
+
 CMakeFiles/GetMyOffer.dir/Algorithm/search.cpp.o: ../Algorithm/search.cpp
 CMakeFiles/GetMyOffer.dir/Algorithm/search.cpp.o: ../Algorithm/search.h
 
@@ -25,8 +37,11 @@ CMakeFiles/GetMyOffer.dir/lookup_table/lookuptable.cpp.o: ../lookup_table/lookup
 CMakeFiles/GetMyOffer.dir/main.cpp.o: ../1-cmystring/cmystring.h
 CMakeFiles/GetMyOffer.dir/main.cpp.o: ../2-duplicate/duplicate.h
 CMakeFiles/GetMyOffer.dir/main.cpp.o: ../2-duplicate_2/duplicate_2.h
+CMakeFiles/GetMyOffer.dir/main.cpp.o: ../2-find_2d_array/find2darray.h
+CMakeFiles/GetMyOffer.dir/main.cpp.o: ../2-replace_blank/replaceblank.h
+CMakeFiles/GetMyOffer.dir/main.cpp.o: ../Algorithm/ceshi/search.h
+CMakeFiles/GetMyOffer.dir/main.cpp.o: ../Algorithm/ceshi/sort.h
 CMakeFiles/GetMyOffer.dir/main.cpp.o: ../Algorithm/search.h
-CMakeFiles/GetMyOffer.dir/main.cpp.o: ../Algorithm/sort.h
 CMakeFiles/GetMyOffer.dir/main.cpp.o: ../bin_find/BinFind.h
 CMakeFiles/GetMyOffer.dir/main.cpp.o: ../lookup_table/lookuptable.h
 CMakeFiles/GetMyOffer.dir/main.cpp.o: ../main.cpp

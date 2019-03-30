@@ -4,7 +4,7 @@
 
 #include "sort.h"
 
-void Sort::bubbleSort(std::vector<int> &v) {
+void Sort::bubbleSort(std::vector<int>& v) {
     int len = v.size();
     for(int i = 1; i < len; ++i){
         for(int j = len - 1; j >= i; --j){
@@ -138,6 +138,7 @@ void Sort::m_quickSort(std::vector<int> &v, int low, int high) {
     m_quickSort(v, i + 1, high);
 }
 
+// 参数是待合并的数组的区间。
 void Sort::merge(std::vector<int> &v, int low, int high) {
     std::vector<int> temp;
     int mid = low + (high - low) / 2;

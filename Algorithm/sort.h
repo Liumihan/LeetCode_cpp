@@ -16,7 +16,6 @@ public:
     static void m_quickSort(std::vector<int>& v, int low, int high);
     static void merge(std::vector<int>& v, int low, int high);
     static void mergeSort(std::vector<int>& v, int low, int high);
-
 };
 
 
